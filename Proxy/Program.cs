@@ -1,4 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿/*
+   優點：
+    代理模式在客戶端與目標物件之間起到一箇中介作用和保護目標物件的作用。
+    代理物件可以擴充套件目標物件的功能。
+    代理模式能將客戶端與目標物件分離，在一定程度上降低了系統的耦合度，增加了程式的可擴充套件性。
+   缺點：
+    代理模式會造成系統設計中類的數量增加。
+    在客戶端和目標物件之間增加一個代理物件，會造成請求處理速度變慢。
+    增加了系統的複雜度。 
+ */
 Proxy.Proxy proxy = new Proxy.Proxy();
 proxy.Request();
 Console.Read();
