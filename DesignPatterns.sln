@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Deco
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{A5593B06-C5B6-4B4B-A450-4125B932DF0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryStrategy", "FactoryStrategy\FactoryStrategy.csproj", "{85DFB24D-2FD5-4CED-A4E3-5E971D185AF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryStrategy", "FactoryStrategy\FactoryStrategy.csproj", "{85DFB24D-2FD5-4CED-A4E3-5E971D185AF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{319ECBF3-6BCC-4E23-9ABF-072F53E35704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{319ECBF3-6BCC-4E23-9ABF-072F53E35704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{52F4DD43-BDE0-467B-AFA7-EA86D151555E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{319ECBF3-6BCC-4E23-9ABF-072F53E35704}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{319ECBF3-6BCC-4E23-9ABF-072F53E35704}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{319ECBF3-6BCC-4E23-9ABF-072F53E35704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F4DD43-BDE0-467B-AFA7-EA86D151555E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F4DD43-BDE0-467B-AFA7-EA86D151555E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F4DD43-BDE0-467B-AFA7-EA86D151555E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F4DD43-BDE0-467B-AFA7-EA86D151555E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
